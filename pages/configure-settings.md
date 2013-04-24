@@ -207,7 +207,7 @@ Determines the default HTTP cookie path if none is specified when invoking the S
     ));
 
     // After instantiation
-    $app->config('cookies.lifetime', '/');
+    $app->config('cookies.path', '/');
 
 Data Type
 : string
